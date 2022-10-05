@@ -16,7 +16,7 @@ function Hero() {
   return (
     <div className='bg-[#24292B] h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden z-0'>
       <BackgroundCircle />
-      <div className='relative w-44 h-4 md:w-52 md:h-52'>
+      <div className='relative w-44 h-44 md:w-52 md:h-52'>
         <Image
           layout='fill'
           className='relative rounded-full h-32 w-32 mx-auto object-cover'
