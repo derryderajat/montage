@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
 function Header() {
   return (
-    <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+    <header className='bg-[#24292B] sticky top-0 flex items-start justify-evenly w-full mx-auto z-20 xl:items-center'>
       <motion.div
         initial={{
           x: -500,
@@ -16,7 +16,7 @@ function Header() {
           scale: 1,
         }}
         transition={{ duration: 1.5 }}
-        className='flex flex-row items-center text-justify'
+        className='flex flex-row items-center text-justify mx-auto ml-4'
       >
         {/* Social Icons */}
         <SocialIcon
